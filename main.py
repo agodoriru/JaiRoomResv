@@ -46,8 +46,6 @@ studentId = input("学籍番号(ex. s2010xxx) : ")
 room = input("使用したい階(ex. 4) : ")
 name = input("name (AGO) : ")
 
-
-print(startTime, endTime, use, studentId, room, name)
 url__ = "http://www2.jaist.ac.jp/cgi-local/room/sendmail?YEAR=" + year + "&MONTH=" + month + "&DAY=" +day + "&TIME=" + urllib.parse.quote(startTime) + "-" + urllib.parse.quote(endTime) + "&USER=" + use + "&REQ_ID=" + studentId + "&TYPE=" + "&ROOM=" + room + "F++" + "&NAME=" + name
 
 

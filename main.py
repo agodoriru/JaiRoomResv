@@ -18,7 +18,7 @@ if int(month) < 10:
 if int(day) < 10:
     day = "0"+ day
 
-year = "2021"
+year = "2022"
 
 url = "http://www2.jaist.ac.jp/cgi-local/room/searchresult?YEAR=" + year + "&MONTH=" + month + "&DAY=" +day + "&WEEK=*"
 
